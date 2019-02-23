@@ -6,7 +6,6 @@ using namespace pxt;
  */
 //% color=#00A654 weight=100
 namespace GAME_ZIP64 {
-
     bool initialized = false;
     int i, j;
     int led_state;
