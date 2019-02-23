@@ -2,6 +2,7 @@
 
 Custom blocks for www.kitronik.co.uk/5626 :GAME ZIP64 for micro:bit. 
 See website for example code.
+Changes for Calliope Mini by M.Klein. Have fun!  BETA!
 
 ## To Use
 For the ZIP LED display
