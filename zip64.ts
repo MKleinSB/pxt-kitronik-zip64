@@ -102,9 +102,9 @@ namespace GAME_ZIP64 {
     //% blockId="run_motor" block="Run motor for %run_time|ms" icon="\uf080"
     //% weight=92 blockGap=8
     export function runMotor(run_time: number): void {
-        pins.digitalWritePin(DigitalPin.P8, 1) // changed !!
+     //   pins.digitalWritePin(DigitalPin.P8, 1) // changed !!
         basic.pause(run_time)
-        pins.digitalWritePin(DigitalPin.P8, 0) // dito
+     //   pins.digitalWritePin(DigitalPin.P8, 0) // dito
     }
 
     /**
@@ -114,7 +114,7 @@ namespace GAME_ZIP64 {
     //% blockId="buzzer_setup" block="set pitch pin to buzzer" icon="\uf080"
     //% weight=91 blockGap=8
     export function setBuzzerPin(): void {
-         pins.analogSetPitchPin(AnalogPin.P0) //P2 Calliope Mini has its own buzzer!
+     //    pins.analogSetPitchPin(AnalogPin.P0) //P2 Calliope Mini has its own buzzer!
     }
 
     /**
